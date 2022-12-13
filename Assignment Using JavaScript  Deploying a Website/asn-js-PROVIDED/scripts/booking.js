@@ -33,7 +33,7 @@ function color_change() {
 var clear_button = document.querySelector("#clear-button");
 function clear_day() {
   for (let i in dayselected) {
-    if (day_selected.hasOwnProperty(i)) {
+    if (dayselected.hasOwnProperty(i)) {
       {
         dayselected[i].classList.remove("clicked");
         calculatedcost.innerHTML = 0;
